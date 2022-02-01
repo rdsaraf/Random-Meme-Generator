@@ -1,0 +1,12 @@
+.footer{
+    position: fixed;
+    bottom: 0;
+    background-color: crimson;
+    text-align: center;
+    color: white;
+    font-family: "Roboto";
+    font-weight: bold;
+    padding: 0.4vmax;
+    width: 100%;
+    letter-spacing: 0.1vmax;
+}

@@ -1,0 +1,81 @@
+.memeImage {
+    width: 400px;
+    height: 400px;
+    margin: 1vmax;
+}
+.memeImage > img{
+    width: inherit;
+    height: inherit;
+    border-radius: 10px;
+}
+.shuffleBtn{
+    border: none;
+    background-color: crimson;
+    color: white;
+    padding: 0.7vmax;
+    width: inherit;
+    margin-bottom: 0.5vmax;
+    border-radius: 10px;
+    letter-spacing: 0.1vmax;
+    font-family: "Roboto";
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+.shuffleBtn:hover{
+    background-color: rgb(179, 15, 47);
+    transform: scale(1.03);
+}
+.inputBoxes{
+    display: flex;
+    justify-content: space-evenly;
+}
+.inputBoxes > input{
+    width: 45%;
+    padding: 0.5vmax 1.5vmax;
+    border: none;
+    box-shadow: 2px 2px 5px rgb(233, 125, 147);
+    border-bottom: 2px solid crimson;
+    border-radius: 5px;
+    margin-top: 0.5vmax;
+    color: crimson;
+    font-weight: bold;
+    text-align: center;
+    font-family: "Roboto";
+}
+.createMeme{
+    border: none;
+    background-color: crimson;
+    color: white;
+    padding: 0.7vmax;
+    width: inherit;
+    margin-top: 1vmax;
+    border-radius: 10px;
+    letter-spacing: 0.1vmax;
+    font-family: "Roboto";
+    cursor: pointer;
+    transition: all 0.3s;
+    font-weight: bold;
+}
+.createMeme:hover{
+    background-color: rgb(179, 15, 47);
+    transform: scale(1.03);
+}
+.finalMeme{
+    border: none;
+    background-color: crimson;
+    color: white;
+    padding: 0.7vmax;
+    width: inherit;
+    margin-top: 1vmax;
+    border-radius: 10px;
+    letter-spacing: 0.1vmax;
+    font-family: "Roboto";
+    cursor: pointer;
+    transition: all 0.3s;
+    font-weight: bold;
+}
+.finalMeme:hover{
+    background-color: rgb(179, 15, 47);
+    transform: scale(1.03);
+}

@@ -1,0 +1,13 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.App{
+    height: 100vh;
+    width: 100vw;
+    background-color: #CAD5E2;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
